@@ -12,7 +12,7 @@ import java.util.Scanner;
         int no2 = scanner.nextInt();
 
         int a = Integer.valueOf(no);
-        int b = Integer.valueOf(no);
+        int b = Integer.valueOf(no2);
 
         if(a<=b){
             System.out.println("Integer a is less then or equal to b");
