@@ -1,22 +1,24 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Marks Of any 5 Subjects ");
+        System.out.println("Enter The Name Of Ticket Holder ");
 
-        int[] subjectMarks = new int[5];
-        subjectMarks[0] = scanner.nextInt();
-        subjectMarks[1] = scanner.nextInt();
-        subjectMarks[2] = scanner.nextInt();
-        subjectMarks[3] = scanner.nextInt();
-        subjectMarks[4] = scanner.nextInt();
+        String[] TicketDetails = new String[5];
+        TicketDetails[0] = scanner.nextLine();
 
-        int position = 0;
+        System.out.println("Enter The Ticket Number ");
+        TicketDetails[1] = scanner.nextLine();
+
+        TicketDetails[2] = scanner.nextLine();
+        TicketDetails[3] = scanner.nextLine();
+        TicketDetails[4] = scanner.nextLine();
+
+       int position = 0;
         while(position<= 4) {
-            System.out.println("5 Subjects marks are = " + position + "=" + subjectMarks[position]);
+            System.out.println("5 Subjects marks are = " + position + "=" + TicketDetails[position]);
             position++;
         }
 
