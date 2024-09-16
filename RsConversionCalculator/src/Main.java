@@ -43,6 +43,9 @@ public class Main {
             case 5:
                 System.out.println("Exiting the Program");
                 break;
+
+             default:
+                 System.out.println("-----------------INVALID OPTION PLZZ ENTER CORRECT OPTION--------------");
         }
 
 
