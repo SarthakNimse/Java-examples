@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         HashSet<String>set1 = new HashSet<>();
-
+    
         set1.add("Ravi");
         set1.add("Ravi");
         set1.add("Ajay");
